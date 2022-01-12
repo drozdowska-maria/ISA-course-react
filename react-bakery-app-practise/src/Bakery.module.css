@@ -72,3 +72,27 @@
     padding: 5px;
 }
 
+
+.home {
+    display: flex;
+
+}
+
+.nav {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.content {
+    flex: 1;
+
+}
+
+.active {
+    background: red;
+    font-weight: bolder;
+}
+

@@ -11,8 +11,9 @@ export const EmployeeForm = (props) => {
         e.preventDefault();
         // console.log(document.querySelector('#dontDoThat').value);
         // console.log('this is ref', nameRef.current.value);
-        console.log(props.name)
+        console.log(nameRef)
     }
+    
     return (
         <div>
             <form className={styles.employeeForm}>

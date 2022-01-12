@@ -1,7 +1,7 @@
 // import { render } from 'react-dom';
 import  ReactDOM  from 'react-dom';
-import {Bakery} from './Bakery.js'
+import { Home } from './Home';
 
 
-ReactDOM.render(<Bakery />, document.getElementById("root"));
+ReactDOM.render(<Home />, document.getElementById("root"));
 

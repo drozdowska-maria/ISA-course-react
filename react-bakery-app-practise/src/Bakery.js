@@ -87,7 +87,7 @@ export const Bakery = () => {
 
 
   return (
-    <>
+    <div>
       <h1>React Bakery</h1>
       <div className={styles.progressBar}>
         <div className={styles.greenProgressBar} style={{ width: width }} />
@@ -112,7 +112,7 @@ export const Bakery = () => {
 
 
       </div>
-      <NewEmployeePage/>
-    </>
+      
+    </div>
   );
 };
