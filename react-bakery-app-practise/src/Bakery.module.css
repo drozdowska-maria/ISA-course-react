@@ -1,0 +1,74 @@
+.progressBar {
+    position: relative;
+    width: 100px;
+    height: 10px;
+    background-color: lightgray;
+}
+
+.greenProgressBar {
+    position: absolute;
+    height: 10px;
+    background-color: greenyellow;
+}
+
+.doughBallWrapper {
+    display: flex;
+}
+
+.doughBall {
+  
+    border-radius: 50%;
+    background-color: yellow;
+    margin: 10px;
+}
+
+.newEmployeePage {
+    
+    display: flex;
+    height: 200px;
+    align-items: center;
+    
+}
+
+.employeeForm {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-right: 20px;
+    border-right: 1px solid rgb(0, 0, 0)
+}
+
+.employeeCard {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.employeeImg {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+.employeeInput {
+    box-sizing: border-box;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 5px;
+    padding: 10px
+}
+
+.employeeBtn {
+    box-sizing: border-box;
+    height: 30px;
+    border-radius: 5px;
+    border: 0px;
+    color: white;
+    background-color: rgb(0, 110, 255);
+    margin: 5px;
+    padding: 5px;
+}
+
