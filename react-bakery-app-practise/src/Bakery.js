@@ -1,6 +1,5 @@
 import { useEffect, useState, useRef } from "react";
 import styles from "./Bakery.module.css";
-import { NewEmployeePage } from "./components/NewEmployeePage";
 
 
 const DoughBall = (props) => {

@@ -74,7 +74,9 @@
 
 
 .home {
+    height: 100vh;
     display: flex;
+    align-items: stretch;
 
 }
 
@@ -82,7 +84,7 @@
     width: 300px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
     gap: 10px;
 }
 
